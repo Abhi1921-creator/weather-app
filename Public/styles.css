@@ -1,0 +1,73 @@
+/* Apply a beautiful gradient background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Card container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading style */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph style for weather description */
+p {
+    font-size: 1.2rem;
+}
+
+/* Input styling */
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Button styling */
+button {
+    background: #ff9a9e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #ff6a88;
+}
+
+/* Weather image */
+img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
